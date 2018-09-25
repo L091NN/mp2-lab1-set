@@ -18,7 +18,7 @@ TBitField::TBitField(const TBitField &bf) // конструктор копиро
 TBitField::~TBitField()
 {
 }
-
+/*
 int TBitField::GetMemIndex(const int n) const // индекс Мем для бита n
 {
 }
@@ -79,8 +79,10 @@ TBitField TBitField::operator~(void) // отрицание
 
 istream &operator>>(istream &istr, TBitField &bf) // ввод
 {
+	
 }
 
 ostream &operator<<(ostream &ostr, const TBitField &bf) // вывод
 {
 }
+*/
