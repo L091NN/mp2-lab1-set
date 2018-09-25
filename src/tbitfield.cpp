@@ -9,14 +9,17 @@
 
 TBitField::TBitField(int len)
 {
+	BitLen = len;
 }
 
 TBitField::TBitField(const TBitField &bf) // конструктор копирования
 {
+
 }
 
 TBitField::~TBitField()
 {
+
 }
 /*
 int TBitField::GetMemIndex(const int n) const // индекс Мем для бита n
