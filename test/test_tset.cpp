@@ -1,7 +1,7 @@
 #include "tset.h"
 
 #include <gtest.h>
-/*
+
 TEST(TSet, can_get_max_power_set)
 {
   const int size = 5;
@@ -9,7 +9,7 @@ TEST(TSet, can_get_max_power_set)
 
   EXPECT_EQ(size, set.GetMaxPower());
 }
-
+/*
 TEST(TSet, can_insert_non_existing_element)
 {
   const int size = 5, k = 3;
