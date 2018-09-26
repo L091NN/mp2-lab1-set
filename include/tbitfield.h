@@ -7,7 +7,7 @@
 
 #ifndef __BITFIELD_H__
 #define __BITFIELD_H__
-
+#define SIZE (sizeof(TELEM)*8)
 #include <iostream>
 
 using namespace std;
@@ -28,7 +28,7 @@ public:
   TBitField(int len);                //                                   (#О1)
   TBitField(const TBitField &bf);    //                                   (#П1)
   ~TBitField();                      //                                    (#С)
-
+  
   // доступ к битам
   int GetLength(void) const;      // получить длину (к-во битов)           (#О)
   void SetBit(const int n);       // установить бит                       (#О4)
@@ -45,6 +45,7 @@ public:
 
   friend istream &operator>>(istream &istr, TBitField &bf);       //      (#О7)
   friend ostream &operator<<(ostream &ostr, const TBitField &bf); //      (#П4)
+  
 };
 // Структура хранения битового поля
 //   бит.поле - набор битов с номерами от 0 до BitLen
