@@ -26,7 +26,7 @@ TSet::TSet(const TBitField &bf) : BitField(bf.GetLength())
 {
 	MaxPower = bf.GetLength();
 }
-/*
+
 TSet::operator TBitField()
 {
 	return BitField;
@@ -180,4 +180,3 @@ ostream& operator<<(ostream &ostr, const TSet &s) // вывод
 
 	return ostr;
 }
-*/
