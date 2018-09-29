@@ -1,0 +1,7 @@
+﻿  sample_prime_numbers.cpp
+sample_prime_numbers.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/SAFESEH"
+sample_prime_numbers.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall TBitField::SetBit(int)" (?SetBit@TBitField@@QAEXH@Z) в функции _main
+sample_prime_numbers.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: void __thiscall TBitField::ClrBit(int)" (?ClrBit@TBitField@@QAEXH@Z) в функции _main
+sample_prime_numbers.obj : error LNK2019: ссылка на неразрешенный внешний символ "public: int __thiscall TBitField::GetBit(int)const " (?GetBit@TBitField@@QBEHH@Z) в функции _main
+sample_prime_numbers.obj : error LNK2019: ссылка на неразрешенный внешний символ "class std::basic_ostream<char,struct std::char_traits<char> > & __cdecl operator<<(class std::basic_ostream<char,struct std::char_traits<char> > &,class TBitField const &)" (??6@YAAAV?$basic_ostream@DU?$char_traits@D@std@@@std@@AAV01@ABVTBitField@@@Z) в функции _main
+C:\Users\Asus\source\repos\mp2-lab1-set\sln\vc10\Debug\sample_prime_numbers.exe : fatal error LNK1120: неразрешенных внешних элементов: 4
