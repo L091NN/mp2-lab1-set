@@ -13,7 +13,7 @@ TBitField::TBitField(int len = 0)
 	{
 		BitLen = len;
 		MemLen = (len % SIZET == 0) ? len / SIZET : len / SIZET + 1;
-		pMem = new TELEM(MemLen);
+		pMem = new TELEM[MemLen];
 		for (int i = 0; i < MemLen; i++)
 			pMem[i] = 0;
 	}
