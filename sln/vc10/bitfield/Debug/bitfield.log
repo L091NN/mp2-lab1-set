@@ -1,0 +1,7 @@
+﻿  tbitfield.cpp
+c:\users\asus\source\repos\mp2-lab1-set\src\tbitfield.cpp(116): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\asus\source\repos\mp2-lab1-set\src\tbitfield.cpp(134): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\asus\source\repos\mp2-lab1-set\src\tbitfield.cpp(157): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\asus\source\repos\mp2-lab1-set\src\tbitfield.cpp(171): warning C4018: <: несоответствие типов со знаком и без знака
+c:\users\asus\source\repos\mp2-lab1-set\src\tbitfield.cpp(185): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+  bitfield.vcxproj -> C:\Users\Asus\source\repos\mp2-lab1-set\sln\vc10\Debug\bitfield.lib

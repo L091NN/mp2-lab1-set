@@ -7,6 +7,7 @@
 
 #ifndef __BITFIELD_H__
 #define __BITFIELD_H__
+#define SIZET (sizeof(TELEM)*8)
 
 #include <iostream>
 
@@ -17,7 +18,7 @@ typedef unsigned int TELEM;
 class TBitField
 {
 private:
-  int  BitLen; // длина битового поля - макс. к-во битов
+  int  BitLen; // длина битового поля - макс. к-во битов d
   TELEM *pMem; // память для представления битового поля
   int  MemLen; // к-во эл-тов Мем для представления бит.поля
 
@@ -28,7 +29,7 @@ public:
   TBitField(int len);                //                                   (#О1)
   TBitField(const TBitField &bf);    //                                   (#П1)
   ~TBitField();                      //                                    (#С)
-
+  
   // доступ к битам
   int GetLength(void) const;      // получить длину (к-во битов)           (#О)
   void SetBit(const int n);       // установить бит                       (#О4)
@@ -45,6 +46,7 @@ public:
 
   friend istream &operator>>(istream &istr, TBitField &bf);       //      (#О7)
   friend ostream &operator<<(ostream &ostr, const TBitField &bf); //      (#П4)
+  
 };
 // Структура хранения битового поля
 //   бит.поле - набор битов с номерами от 0 до BitLen
